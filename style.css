@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    margin: 0px;           /*OBRIGATORIO EM TODO INICIO DE PROJETO*/
+    padding: 0px;
+    font-family: 'New Tegomin', serif;
+}
+   p{              /*PERMITE QUE TODOS OS PARAGRAFOS TENHA ESTE ESPAÇAMENTO*/
+       margin: 15px 0px 15px 0px;
+       text-align: justify;
+       text-indent: 30px;
+       line-height: 2em;
+   }
+  main{
+      min-width: 300px;    /*TAMANHO MINIMO E MAXIMO DA MAIN*/
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+       box-shadow: 0PX 0PX 10px rgba(0, 0, 0, 0.521);             /*SOMBRA INTERESSANTE*/
+  }
+  main img{
+      width: 100%;         /*TAMANHO DAS IMAGENS*/
+  }
+   header{   
+       display:flex; 
+       justify-content: space-between;
+       min-width: 300px;
+       max-width: 1000px;
+       margin: auto;
+       
+       /* padding: 30px; */
+       min-height: 60px;
+       /* text-align: center; */
+   }
+   nav{                    /*MENU ZUADO*/
+       display: flex;
+       
+       border-width: 2px;
+       color: black;
+       border-style: solid;
+       
+       font-size: 20px;
+
+       margin-bottom: 20px;
+       margin-top: 20px;
+       margin-right: 20px;
+
+       height: 40px;
+       max-width: 450px;
+      
+   }
+   .logo{                  /*LOG ZUADO CRIADO POR MIM*/
+       border-width: 2px;
+        border-style: solid;
+        
+       height: 25px;
+       margin-bottom: 20px;
+       margin-left: 20px;  
+       margin-top: 20px;
+       font-size: 20px;
+       padding: 5px; 
+       /* padding-bottom: 10px; */
+       
+   }
+   li {
+       list-style-type: none;
+       padding: 8px;
+       
+   }
+   nav a{
+       text-decoration: none;
+       transition-duration: .5s;
+       
+   }
+   nav  a:hover{
+       background-color: black;
+       border-radius: 3px;
+       color: white;
+   }
+   
+   .first{                 /*PRIMEIRO H1*/
+       text-align: center;
+       font-size: 40px;
+   }
+   .second{                /*primeiro h2*/
+       text-align: center;
+   }
+  .bug{                    /*IMG DO ANDROID COM HUMANO*/
+      /* width: 50%;          DIMINUICAO DA IMG NORMAL */
+       max-width: 350px;       /*corrigido na ultima aula, antes era usado este ai de cima */
+      display: block;      /*COMO A IMG POR PADRAO N É UM BLOCO  ENTAO PRECISA DAR UM DISPLAY BLOCK ou seja NADA FICARA AO LADO*/
+      margin: auto;         /*DEIXARA A IMAGEM NO CENTRO*/
+  }
+   
+   .foot{                  /*RODAPÉ*/
+        
+        background-color: black;
+        color: coral;
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+   }
+   .foot p{
+        text-align: center;
+   }
+   iframe{                 /*VIDEO*/
+       width: 100%;
+   }
